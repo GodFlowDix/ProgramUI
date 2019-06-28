@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C21EFACE22C51A1400410CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EFACD22C51A1400410CFC /* AppDelegate.swift */; };
-		C21EFAD022C51A1400410CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EFACF22C51A1400410CFC /* ViewController.swift */; };
-		C21EFAD322C51A1400410CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21EFAD122C51A1400410CFC /* Main.storyboard */; };
 		C21EFAD622C51A1400410CFC /* ProgramUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C21EFAD422C51A1400410CFC /* ProgramUI.xcdatamodeld */; };
 		C21EFAD822C51A1600410CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21EFAD722C51A1600410CFC /* Assets.xcassets */; };
 		C21EFADB22C51A1600410CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21EFAD922C51A1600410CFC /* LaunchScreen.storyboard */; };
+		C21EFAE322C51AD100410CFC /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EFAE222C51AD100410CFC /* FirstScreen.swift */; };
+		C21EFAE522C51FB600410CFC /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EFAE422C51FB600410CFC /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C21EFACA22C51A1400410CFC /* ProgramUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21EFACD22C51A1400410CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C21EFACF22C51A1400410CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C21EFAD222C51A1400410CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C21EFAD522C51A1400410CFC /* ProgramUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProgramUI.xcdatamodel; sourceTree = "<group>"; };
 		C21EFAD722C51A1600410CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C21EFADA22C51A1600410CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C21EFADC22C51A1600410CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21EFAE222C51AD100410CFC /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		C21EFAE422C51FB600410CFC /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				C21EFACD22C51A1400410CFC /* AppDelegate.swift */,
-				C21EFACF22C51A1400410CFC /* ViewController.swift */,
-				C21EFAD122C51A1400410CFC /* Main.storyboard */,
+				C21EFAE222C51AD100410CFC /* FirstScreen.swift */,
+				C21EFAE422C51FB600410CFC /* SecondScreen.swift */,
 				C21EFAD722C51A1600410CFC /* Assets.xcassets */,
 				C21EFAD922C51A1600410CFC /* LaunchScreen.storyboard */,
 				C21EFADC22C51A1600410CFC /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				C21EFADB22C51A1600410CFC /* LaunchScreen.storyboard in Resources */,
 				C21EFAD822C51A1600410CFC /* Assets.xcassets in Resources */,
-				C21EFAD322C51A1400410CFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +137,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21EFAD022C51A1400410CFC /* ViewController.swift in Sources */,
 				C21EFACE22C51A1400410CFC /* AppDelegate.swift in Sources */,
+				C21EFAE522C51FB600410CFC /* SecondScreen.swift in Sources */,
 				C21EFAD622C51A1400410CFC /* ProgramUI.xcdatamodeld in Sources */,
+				C21EFAE322C51AD100410CFC /* FirstScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C21EFAD122C51A1400410CFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C21EFAD222C51A1400410CFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C21EFAD922C51A1600410CFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
